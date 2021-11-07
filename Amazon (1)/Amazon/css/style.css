@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  padding: 4px 0px;
+  height: 45px;
+  position: sticky;
+  top: 0px;
+}
+
+.logo img {
+  position: relative;
+  left: 6px;
+  margin: 3px 0px;
+}
+
+.address {
+  margin: 0px 43px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.search {
+  margin: auto 4px;
+  position: relative;
+}
+
+.search input {
+  width: 54vw;
+  border-radius: 5px;
+  height: 25px;
+  text-align: center;
+  font-family: cursive;
+}
+.search select {
+  background-color: white;
+  width: 46px;
+  padding: 2px 2px;
+  border-radius: 4px;
+  position: absolute;
+  left: 0px;
+  height: 28px;
+}
+
+.search img {
+  width: 30px;
+  height: 28px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.flag img {
+  width: 17px;
+  height: 15px;
+  position: relative;
+  top: 23px;
+  left: 15px;
+}
+
+.sign {
+  padding: 3px 42px;
+}
+
+.return {
+  padding: 3px 0px;
+  margin: 0px -20px;
+}
+
+.return:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.cart img {
+  margin: 0px 37px;
+}
+
+.head2 {
+  background-color: #232f3e;
+  color: white;
+  height: 31px;
+}
+
+.head2 nav ul {
+  display: flex;
+  padding: 7px 14px;
+  justify-content: centre;
+}
+
+.head2 nav ul li {
+  list-style: none;
+  padding: 0px 36px;
+  color: white;
+}
+
+.head2 nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  min-height: calc(100vh - 55px - 31px - 28vh);
+  background: rgb(199, 197, 197)
+    url("https://source.unsplash.com/1600x700/?shopping,amzaon, e-commerce")
+    no-repeat fixed;
+}
+
+.slider {
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  margin: 4px;
+  padding-top: 301px;
+}
+
+.card-1 {
+  display: inline-block;
+  background-color: white;
+  height: 398px;
+  width: 381px;
+}
+.card1img {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2px;
+}
+
+.more a {
+  padding: 5px;
+  position: relative;
+  top: 39px;
+  text-decoration: none;
+  color: #1575c9;
+}
+
+.pay a {
+  color: #1575c9;
+  text-decoration: none;
+}
+
+.pic {
+  width: 327px;
+  height: 279px;
+  padding-left: 28px;
+}
+
+.card-1 .pay {
+  position: relative;
+  left: 5px;
+  top: 11px;
+}
+
+.card-2 {
+  display: inline-block;
+  background-color: white;
+  height: 398px;
+  width: 327px;
+}
+
+.horizontal-card {
+  background-color: white;
+}
+
+.card2img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  background-color: #0f1111;
+  color: white;
+  height: 30vh;
+  padding-top: 7px;
+  margin-top: -4px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.row1 pre {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 10px;
+  color: rgb(228, 203, 228);
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.row2 pre {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 10px;
+  color: rgb(228, 203, 228);
+}
+
+.last {
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.last p {
+  /* margin: 24px 0px; */
+  position: absolute;
+  top: 53px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}

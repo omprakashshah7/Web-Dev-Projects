@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 0px;
+    height: 45px;
+    position: sticky;
+    top: 0px;
+}
+.logo img{
+    position: relative;
+    left: 6px;
+    margin: 3px 0px;
+}

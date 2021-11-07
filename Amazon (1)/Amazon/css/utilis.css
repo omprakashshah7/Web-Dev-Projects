@@ -1,0 +1,21 @@
+.my-1{
+    text-align: center;
+}
+.weight{
+    font-weight: 600;
+    letter-spacing: -0.039em;
+}
+
+.position-shifting{
+    position: relative;
+    left: 20px;
+}
+
+.my-2{
+padding: 8px 7px 13px 9px;
+}
+
+.my-3{
+    padding: 19px 10px;
+}
+

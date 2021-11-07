@@ -2,9 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    /* overflow: hidden; */
+html{
+    font-family: 'Martel Sans', sans-serif;
 }
+
 .primary{
     font-family: cursive;
     /* background-image: url('background.jpg'); */
@@ -66,13 +67,13 @@ body{
     flex-direction: column;
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 56px;
 }
 .head-2{
-    font-size: 40px;
+    font-size: 37px;
 }
 .head-3{
-    font-size: 25px;
+    font-size: 23px;
     margin: 8px 0;
 }
 .get-started{
@@ -88,7 +89,7 @@ body{
     cursor: pointer;
     position: absolute;
     left: 1005px;
-    top: 464px;
+    top: 444px;
     height: 65px;
     width: 195px;
     background-color: #e50914;
